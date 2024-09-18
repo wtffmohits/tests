@@ -1,0 +1,13 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/illustrator/illu1.jpg
+  image_dark: assets/images/illustrator/illu1.jpg
+  color_dark: "#272727"
+
+android_12:
+  color: "#FFFFFF"
+  image: assets/images/illustrator/illu1.jpg
+  image_dark: assets/images/illustrator/illu1.jpg
+  color_dark: "#272727"
+
+web: false
