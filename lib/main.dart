@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:tests/features/authantication/screens/onbording.dart';
 
 void main() {
+  //Todo: Add Widget Binding
+  //Todo: Init local Storage
+  //Todo: Init Firebase
+  //Todo: Init Authantication
+  //Todo: Await Native Splash
+  
   runApp(const MyApp());
 }
 

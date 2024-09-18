@@ -3,7 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:tests/features/authantication/screens/onbording.dart';
-import 'package:tests/utils/theam/text_theam.dart';
+// import 'package:tests/utils/theam/text_theam.dart';
+import 'package:tests/utils/theam/theme.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
