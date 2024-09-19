@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tests/features/authantication/screens/onbording.dart';
+import 'package:tests/app.dart';
+// import 'package:tests/features/authantication/screens/onbording.dart';
 
 void main() {
   //Todo: Add Widget Binding
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OnBordingScreen(),
+      home: const App(),
     );
   }
 }

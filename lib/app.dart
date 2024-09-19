@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tests/features/authantication/screens/onbording.dart';
+import 'package:tests/bottom_navigator.dart';
+// import 'package:tests/features/authantication/screens/onbording.dart';
 // import 'package:tests/utils/theam/text_theam.dart';
 import 'package:tests/utils/theam/theme.dart';
 
@@ -16,7 +17,7 @@ class App extends StatelessWidget {
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       title: 'Test App',
-      home: const OnBordingScreen(),
+      home: const NavigationMenue(),
       debugShowCheckedModeBanner: false,
     );
   }

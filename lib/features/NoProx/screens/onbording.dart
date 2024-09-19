@@ -16,7 +16,7 @@ class OnBordingScreen extends StatelessWidget {
                 children: [
                   Image(
                     
-                    image: AssetImage(TImages.onboarding1)
+                    image: AssetImage(TImages.illustrator1)
                     )
                 ],
               )
