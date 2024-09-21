@@ -8,5 +8,7 @@ class TDeviceUtils{
   static void hideKeyboard(BuildContext context) {
     FocusScope.of(context).unfocus();
   }
-  
+  static double getAppBarHeight(){
+    return kToolbarHeight;
+  }
 }

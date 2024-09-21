@@ -10,8 +10,8 @@ class TText{
   static const String onboardingDescription3 = "This is a parent app";
 
   // Home
-  static const String homeAppbarTitle = "Home";
-  static const String homeSearchBarHint = "Search for students, teachers, parents";
+  static const String homeAppbarTitle = "NoProxy";
+  static const String homeSearchBarHint = "Search for students & teachers";
   static const String homeAppbarSubTitle = "No result found";
 
 }

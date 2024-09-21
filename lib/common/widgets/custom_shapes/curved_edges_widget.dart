@@ -3,10 +3,12 @@ import 'package:tests/common/widgets/custom_shapes/circular_shape.dart';
 import 'package:tests/common/widgets/custom_shapes/curved_edges.dart';
 import 'package:tests/utils/contains/colors.dart';
 
-class TCurvedEdgesWidget extends StatelessWidget {
-  const TCurvedEdgesWidget({
-    super.key, required Column child,
+class TPrimeryHaderContainer extends StatelessWidget {
+  const TPrimeryHaderContainer({
+    super.key, this.child, 
   });
+  final Widget? child;
+  
 
   @override
   Widget build(BuildContext context) {
@@ -14,10 +16,9 @@ class TCurvedEdgesWidget extends StatelessWidget {
       clipper: TCurvedEdgess(),
       child: Container(
         color: TColors.primaryColor,
-        padding: const EdgeInsets.all(0),
         child: SizedBox(
           height: 400,
-
+          width: double.infinity,
           child: Stack(
             children: [
               Positioned(top: -150, right: -250,child: TCircularContainer(backgroundColor: TColors.White.withOpacity(0.1),)),
